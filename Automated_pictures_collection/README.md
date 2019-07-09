@@ -1,3 +1,3 @@
 # Automated system for pictures collection
-[a relative link](other_file.md)
+[a relative link](Weaver_individualID/README.md)
 
