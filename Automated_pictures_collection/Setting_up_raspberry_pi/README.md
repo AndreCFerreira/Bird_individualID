@@ -8,7 +8,8 @@
 
 In other to use a raspberry pi you need to format a microSD (minimum 16gb) to fat32 format (you can check [this site]( https://www.raspberrypi.org/documentation/installation/sdxc_formatting.md) for more information).
 If it’s you first time using a raspberry pi we recommend installing Raspbian operating system using [NOOBS](https://www.raspberrypi.org/downloads/). Extract the content of the zip file to the formatted microSD card and insert it on the raspberry pi.
-Connect a keyboard and mouse on the usb ports of the raspberry pi and screen using a hdmi cable. After loading the system check the checkbox for the raspebian operating system, click on install and confirm.
+Connect a keyboard and mouse on the USB ports of the raspberry pi, a display screen using a HDMI port and connect the raspberry pi camera on the camera slot. After loading the system check the checkbox for the raspebian operating system, click on install and confirm.
+
 
 
 <img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Automated_pictures_collection/Setting_up_raspberry_pi/Images/raspbian%20installation.JPG" width="648" height="432" />
@@ -21,3 +22,7 @@ Select the interface tab and enable the camera.
 
 <img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Automated_pictures_collection/Setting_up_raspberry_pi/Images/camera.png" width="648" height="432" />
 
+Reboot the raspberry pi and test the camera by typing in the terminal
+```console
+raspistill -o test.jpg
+```
