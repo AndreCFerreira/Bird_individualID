@@ -11,3 +11,11 @@ Connect a keyboard and mouse on the usb ports of the raspberry pi and screen usi
 
 <img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Automated_pictures_collection/Setting_up_raspberry_pi/Images/raspbian%20installation.JPG" width="648" height="432" />
 
+When the installation is completed you need to activate the camera opening the configuration menu
+
+<img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Automated_pictures_collection/Setting_up_raspberry_pi/Images/raspberryconfig.png" width="648" height="432" />
+
+Select the interface tab and enable the camera.
+
+<img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Automated_pictures_collection/Setting_up_raspberry_pi/Images/camera.png" width="648" height="432" />
+
