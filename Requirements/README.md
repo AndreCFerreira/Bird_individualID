@@ -1,5 +1,5 @@
 ## Requirements
-Instructions given in this repository are meant to be used using a machine with a linux operating system installed (in our case we used [Ubuntu 18.04 LTS ](https://ubuntu.com/download/desktop) 
+Instructions given in this repository are meant to be used using a machine with a linux operating system installed (in our case we used [Ubuntu 18.04 LTS)](https://ubuntu.com/download/desktop) 
 
 We also assume that readers are already aware that deep Learning is very computationally intensive and therefore have access to a computer with the minimum requirements for their project. In our case we used a computer with 64gb RAM and a GPU nvidia RTX2070. 
 
