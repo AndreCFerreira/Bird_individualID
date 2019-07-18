@@ -9,7 +9,7 @@ This repository explains how to automatize collection of training pictures using
 2)	 [Automated_pictures_collection: raspberry pi communication with RFID data logger to build a camera trap with automatic labelling.](https://github.com/AndreCFerreira/Weaver_individualID/tree/master/Automated_pictures_collection)
 
 
-3)	[Data_pre-processing: localize and extract birds (or the body part of interest) from the pictures.] (https://github.com/AndreCFerreira/Weaver_individualID/tree/master/Data_pre-processing)
+3)	[Data_pre-processing: localize and extract birds (or the body part of interest) from the pictures.](https://github.com/AndreCFerreira/Weaver_individualID/tree/master/Data_pre-processing)
 
 4)	Train_CNN: training the convolutional neural network for individual identification
 
