@@ -2,4 +2,4 @@
 
 
 
-<img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Automated_pictures_collection/Setting_up_raspberry_pi/Images/IMG_6313.JPG" width="400" height="400" />
+<img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Automated_pictures_collection/Setting_up_raspberry_pi/Images/IMG_6313.JPG" width="648" height="432" />
