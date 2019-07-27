@@ -9,9 +9,11 @@ To start labelling the regions of interest select Regions Attributes and add a n
 After selecting the region of interest in all pictures go to Annotation->save JSON to download the file which contains the information about the regions of interest. Keep this file in the same folder as the training pictures. Repeat the process for another smaller dataset which will be used as validation data set.
 To train the model you can use the scripts provided in [this repository](https://github.com/matterport/Mask_RCNN). Please cite XXX if using this code.
 Download and extract the repository. You can use the example in the folder /PATH/TO/Mask_RCNN-master/samples/balloon to train a model on your own dataset. Open the terminal on this folder and type the following code:
-´´´´
+
+```console
 python3 balloon.py train --dataset=/path/to /dataset --weights=coco
-´´´´
+```
+
 You should have a folder (e.g. “dataset”) with two folders one for training and another for validation (“train” and “val”) with the pictures and JSON in the respective folders. By default the model will be trained for 10 epochs and store a backup of the model every epoch in the folder /PATH/TO/Mask_RCNN-master/logs/. If you want to change the number of epochs or change any of the hyperparameters, edit the python script balloon.py or consult the original [repository](https://github.com/matterport/Mask_RCNN).
 
 After training you can evaluate the model performance using the provided notebook “inspect_balloon_data.ipynb” and you can extract the regions of interest from the original pictures following an [adaptation of this notebook]( https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Data_pre-processing/Training_model/Extracting_region_of_interest.ipynb).
