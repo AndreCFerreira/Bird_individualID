@@ -3,6 +3,8 @@ In order to train a model to select the region occupied by a specific object of 
 Start by uploading training images to VGG, by clicking on Image -> load or add images. The number of images needed for training depends on the complexity of the problem. Since this task requires manual work, in order to avoid spending too much time labelling regions of interest start by uploading 100-200 pictures. If the results are not satisfactory you can add more pictures later.
 To start labelling the regions of interest select Regions Attributes and add a new column by writing the name of the column (in the image example we chose “name”). Select Polyline shape in the Region Shape and start selecting the region of interest by clicking with the left mouse click (in the image example we selected the head of the bird) and give a name to the delimited region (in the example “head”).
 
+<img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Data_pre-processing/Training_model/Images/VGG_example.png" width="648" height="432" />
+
 
 After selecting the region of interest in all pictures go to Annotation->save JSON to download the file which contains the information about the regions of interest. Keep this file in the same folder as the training pictures. Repeat the process for another smaller dataset which will be used as validation data set.
 To train the model you can use the scripts provided in [this repository](https://github.com/matterport/Mask_RCNN). Please cite XXX if using this code.
