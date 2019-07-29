@@ -23,6 +23,6 @@ If you would like to have more information please contact @gmail.com
 
 3)	[Data_pre-processing: localize and extract birds (or the body part of interest) from the pictures.](https://github.com/AndreCFerreira/Weaver_individualID/tree/master/Data_pre-processing)
 
-4)	Train_CNN: training the convolutional neural network for individual identification
+4)	[Train_CNN: training the convolutional neural network for individual identification](https://github.com/AndreCFerreira/Weaver_individualID/tree/master/Train_CNN)
 
 5)	Work_flow_example: applying the trained model to a situation of interest.
