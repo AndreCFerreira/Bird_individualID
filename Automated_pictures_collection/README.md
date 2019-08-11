@@ -28,7 +28,7 @@ This will show you the devices connected to the raspberry pi. Look for the ones 
  
 
 ## Step 3) Programing the raspberry pi to take photos
-After establishing the communication, you can use the python coded provided here and modify according to your needs. The most important part is to paste the “/dev/ttyUSBx” line that you copied in the previous step. If you have multiple USB units and you are not sure which one corresponds to the RFID logger try all of them, one at each time. This script takes pictures every time that information about a tag is sent from the RFID logger to the raspberry pi. You can modify the code directly on your raspberry pi using Thonny python IDE which is installed by default in the Raspbian system.
+After establishing the communication, you can use the python coded provided [here](https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Automated_pictures_collection/RFID_camera.py) and modify according to your needs. The most important part is to paste the “/dev/ttyUSBx” line that you copied in the previous step. If you have multiple USB units and you are not sure which one corresponds to the RFID logger try all of them, one at each time. This script takes pictures every time that information about a tag is sent from the RFID logger to the raspberry pi. You can modify the code directly on your raspberry pi using Thonny python IDE which is installed by default in the Raspbian system.
  
 <p align="center">
 <img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Automated_pictures_collection/Images/Thonny_script.png" width="600" height="300" />
