@@ -4,7 +4,7 @@ import time
 import random
 import datetime
 
-#define the camela settings:
+#define the camera settings:
 camera = PiCamera(resolution=(1920,1080))
 camera.shutter_speed = 3000
 camera.iso = 1600
