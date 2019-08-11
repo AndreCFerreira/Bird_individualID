@@ -18,7 +18,7 @@ Connect the RS232 to USB adaptor to the logger and to the raspberry pi’s USB p
 Connect the raspberry pi to a keyboard, a mouse and a screen. After powering the raspberry pi open the terminal and type
 
 ```console
-Ls /dev/tty*
+ls /dev/tty*
 ```
 This will show you the devices connected to the raspberry pi. Look for the ones that are named “/dev/ttyUSBx”. If multiple USB devices appear and you do not know which one corresponds to the RFID logger copy all of them to a txt file.
 
