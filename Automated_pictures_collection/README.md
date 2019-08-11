@@ -11,7 +11,9 @@ From reading the [technical datasheet](http://www.priority1design.com.au/rfidlog
 In order to make an automatic labelling camera trap the information about the tags being detect at the RFID logger needs to pass to the raspberry pi which will take the photo and label it by including the photos file name the unique number of the detected tag. 
 Connect the RS232 to USB adaptor to the logger and to the raspberry pi’s USB port. 
 
-https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Automated_pictures_collection/Images/Setup_pi_camera.JPG
+<p align="center">
+<img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Automated_pictures_collection/Images/Setup_pi_camera.JPG" width="600" height="300" />
+</p>
 
 Connect the raspberry pi to a keyboard, a mouse and a screen. After powering the raspberry pi open the terminal and type
 
