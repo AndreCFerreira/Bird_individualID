@@ -55,3 +55,13 @@ In the image example the script is stored in a folder on the Descktop names “P
  
 After pasting the text, press ctrl+o and after ctrl+x. Now every time that the raspberry py is turn on it will automatically start the script to take photos. Be sure to have the right “/dev/ttyUSBx” pasted on the script. Please note that USB number corresponding to the RFID logger might change after removing USB devices such as mouse and keyboard.
 
+If everything worked well you should have pictures that are labelled with the pit-tag code corresponding to the bird as well as the date and any other information that you might find relevant to add. Note that the “:” on the time stamp on the files names might raise issues especially if the files are transfer to a windows computer. You can rename the names by replacing the “:” with “-“. By typing the following code on the terminal:
+
+```console
+cd </PATH/TO/PICTURES_FOLDER >
+rename 's/\:/-/g' *.jpg
+
+<p align="center">
+<img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Automated_pictures_collection/Images/images.png" width="600" height="300" />
+</p>
+
