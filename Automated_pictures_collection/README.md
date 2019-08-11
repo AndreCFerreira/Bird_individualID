@@ -60,6 +60,7 @@ If everything worked well you should have pictures that are labelled with the pi
 ```console
 cd </PATH/TO/PICTURES_FOLDER >
 rename 's/\:/-/g' *.jpg
+```
 
 <p align="center">
 <img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Automated_pictures_collection/Images/images.png" width="600" height="300" />
