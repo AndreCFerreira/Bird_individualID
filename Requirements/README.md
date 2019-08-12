@@ -29,3 +29,9 @@ All other modules  are easier to install. Just type on the linux terminal after 
 ```console
 pip install <name of the module>
 ```
+
+### Python
+
+Although all scripts used in this repository use very basic python code, if completely unfamiliarised with python you should learn python basic [syntax]( https://www.w3schools.com/python/python_syntax.asp), [for loops]( https://www.w3schools.com/python/python_for_loops.asp) and [functions]( https://www.w3schools.com/python/python_functions.asp) before using any of the scripts provided here.
+
+
