@@ -4,7 +4,7 @@ In order to train a model to select the region occupied by a specific object of 
 
 Upload the training images to VGG, by clicking on Image -> load or add images. The number of images needed for training depends on the complexity of the problem. Since this task requires manual work, in order to avoid spending too much time labelling regions of interest start by uploading 100-200 pictures. If the results are not satisfactory you can add more pictures later.
 
-To start labelling the regions of interest select Regions Attributes and add a new column by writing the name of the column (in the image example we chose “name”). Select Polyline shape in the Region Shape and start selecting the region of interest by clicking with the left mouse click (in the image example we selected the head of the bird) and give a name to the delimited region (in the example “head”).
+To start labelling the regions of interest select Regions Attributes and add a new column by writing the name of the column (in the image example we chose “name”). Select Polyline shape in the Region Shape and start selecting the region of interest by clicking with the left mouse click (in the image example we selected the head of the bird) and give a name to the delimited region.
 
 <img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Data_pre-processing/Training_model/Images/VGG_great_tit.png" width="960" height="430" />
 
