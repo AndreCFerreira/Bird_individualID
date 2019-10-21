@@ -1,6 +1,6 @@
 ## Requirements
-Instructions given in this repository are meant to be used in a machine with a linux operating system installed (in our case we used [Ubuntu 18.04 LTS ](https://ubuntu.com/download/desktop))
-We also assume that readers are already aware that deep Learning is very computationally intensive and therefore have access to a computer with the minimum requirements for their project. In our case we used a computer with 64gb RAM and a GPU nvidia RTX2070. Read this [guide]( https://timdettmers.com/2018/12/16/deep-learning-hardware-guide/) in order to understand the requirements for using deep learning.
+Instructions given in this repository are meant to be used in a machine with a linux operating system installed (in our case we used [Ubuntu 18.04 LTS ](https://ubuntu.com/download/desktop)).
+Readers should be aware that deep Learning is very computationally intensive and therefore have access to a computer with the minimum requirements for their project. In our case we used a computer with 64gb RAM and a GPU nvidia RTX2070. You can consult this [guide]( https://timdettmers.com/2018/12/16/deep-learning-hardware-guide/) in order to understand the requirements for using deep learning.
  
 We recommend installing python 3.x using [Anaconda](https://www.anaconda.com/distribution/). It is useful to work with anaconda python as it allows creating conda isolated environments that can contain different versions of Python and/or installed packages. 
 
@@ -33,6 +33,6 @@ pip install <name of the module>
 
 ### Python
 
-Although all scripts used in this repository use very basic python code, if completely unfamiliarised with python you should learn python basic [syntax]( https://www.w3schools.com/python/python_syntax.asp), [for loops]( https://www.w3schools.com/python/python_for_loops.asp) and [functions]( https://www.w3schools.com/python/python_functions.asp) before using any of the scripts provided here.
+Although all scripts used in this repository use very basic python code, if completely unfamiliarised with python you should familiarize yourself with python basic [syntax]( https://www.w3schools.com/python/python_syntax.asp), [for loops]( https://www.w3schools.com/python/python_for_loops.asp) and [functions]( https://www.w3schools.com/python/python_functions.asp) before using any of the scripts provided here.
 
 
