@@ -1,6 +1,6 @@
 ## Raspberry pi first steps
 
-[Raspberry pi]( https://www.raspberrypi.org/help/what-%20is-a-raspberry-pi/) is a single-board low cost computer initially designed to promote teaching of computer science in developing countries, but as cough the interest of researchers in recent years (you can read this[article](https://www.nature.com/articles/544125a.pdf?origin=ppub) for an introduction to raspberry pi and arduino)]
+[Raspberry pi]( https://www.raspberrypi.org/help/what-%20is-a-raspberry-pi/) is a single-board low cost computer initially designed to promote teaching of computer science in developing countries, but as cough the interest of researchers in recent years (you can read this [article](https://www.nature.com/articles/544125a.pdf?origin=ppub) for an introduction to raspberry pi and arduino)]
 
 
 <img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Automated_pictures_collection/Setting_up_raspberry_pi/Images/IMG_6313.JPG" width="648" height="432" />
