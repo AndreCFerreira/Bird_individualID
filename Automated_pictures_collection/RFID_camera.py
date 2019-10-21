@@ -46,7 +46,7 @@ def readData():
 while 1:
     x=readData()#read the data from the logger
     #print(x)
-    if len(x)>9:#if the string is has more than 9 characters (our tags have 10 characters)
+    if len(x)>9:#if the string has more than 9 characters (our tags have 10 characters)
                 #take a picture. Setting up this  threshold is useful to avoid noise from
                 #the serial communication
         #define the name by pasting the tag number with the date and time
