@@ -7,7 +7,7 @@
 
 
 In other to use a raspberry pi you need to format a microSD (minimum 16gb) to fat32 format (you can check [this site]( https://www.raspberrypi.org/documentation/installation/sdxc_formatting.md) for more information).
-If it’s you first time using a raspberry pi we recommend installing Raspbian operating system using [NOOBS](https://www.raspberrypi.org/downloads/). Extract the content of the zip file to the formatted microSD card and insert it on the raspberry pi.
+If it’s your first time using a raspberry pi we recommend installing Raspbian operating system using [NOOBS](https://www.raspberrypi.org/downloads/). Extract the content of the zip file to the formatted microSD card and insert it on the raspberry pi.
 Connect a keyboard and mouse on the USB ports of the raspberry pi, a display screen using a HDMI port and connect the raspberry pi camera on the camera slot. After loading the system check the checkbox for the raspebian operating system, click on install and confirm.
 
 
