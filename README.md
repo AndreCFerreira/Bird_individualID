@@ -10,11 +10,11 @@ This repository provides the implementation of our paper ”Individual visual id
 # Citations and Contact
 
 ```
-@article{andre,
+@article{deeplearningbirds,
   title={ Individual visual identification using deep learning in wild birds },
-  author={Ferreira},
+  author={André C. Ferreira, Liliana R. Silva, Francesco Renna, Hanja B. Brandl, Julien Renoult, Damien R. Farine, Rita Covas and Claire Doutrelant },
   journal={ },
-  year={}
+  year={2019}
 }
 ```
 
