@@ -13,3 +13,7 @@ The second step is to apply transformations to the images used for training eith
 ### Moving files
 
 There are multiple ways to feed the picture to the CNN during training. One of the easiest is to organize the pictures of each individual in different folders. You can follow [this script]( https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Data_pre-processing/Train_validation_dataset.ipynb) to automatically organize the files and split into training and validation datasets. 
+
+### Similarity index
+
+If you need to remove near-similar pictures from the training or validation dataset you can follow [this script](https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Data_pre-processing/Image_similarity.ipynb)
