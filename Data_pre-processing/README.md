@@ -1,6 +1,6 @@
 # Data pre-processing
 
-Here we show how to extract the animals from the pictures, how to apply noise and blur and to organize the pictures files into training and validation datasets in order to use them to train the CNN.
+Here we show how to extract the animals from the pictures, how to apply noise and blur, how to organize the pictures files into training and validation datasets in order to use them to train the CNN and how to used the a similarity index to avoid near-identical pictures in the dataset.
 
 ### Localize and extract the regions of interest
 
