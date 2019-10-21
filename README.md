@@ -18,7 +18,7 @@ This repository provides the implementation of our paper ”Individual visual id
 }
 ```
 
-If you would like to have more information please contact @gmail.com
+If you would like to have more information please contact andremcferreira@cibio.up.pt
 
 ## Table of Contents
 1)	  [Requirements: Python installation and requirements]( https://github.com/AndreCFerreira/Weaver_individualID/tree/master/Requirements)
