@@ -6,7 +6,7 @@ Upload the training images to VGG, by clicking on Image -> load or add images. T
 
 To start labelling the regions of interest select Regions Attributes and add a new column by writing the name of the column (in the image example we chose “name”). Select Polyline shape in the Region Shape and start selecting the region of interest by clicking with the left mouse click (in the image example we selected the head of the bird) and give a name to the delimited region (in the example “head”).
 
-<img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Data_pre-processing/Training_model/Images/VGG_example.png" width="648" height="432" />
+<img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Data_pre-processing/Training_model/Images/VGG_great_tit.png" width="648" height="432" />
 
 
 After selecting the region of interest in all pictures go to Annotation->save JSON to download the file which contains the information about the regions of interest. Keep this file in the same folder as the training pictures. Repeat the process for another smaller dataset which will be used as validation data set.
