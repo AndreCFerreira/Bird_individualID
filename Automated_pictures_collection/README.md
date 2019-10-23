@@ -14,7 +14,7 @@ In order to make an automatic labelling camera trap, connect the RS232 to USB ad
 <img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Automated_pictures_collection/Images/Setup_pi_camera.JPG" width="600" height="300" />
 </p>
 
-## 3. Initializing raspberry pi
+## 3. Initializing the raspberry pi
 Connect the raspberry pi to a keyboard, a mouse and a screen, after powering the raspberry pi, open the terminal and type
 
 ```console
@@ -34,27 +34,27 @@ After establishing the communication between devices, the python code provided [
 </p>
 
 ## 5. Start the script on boot 
-Since an hdmi screen is probably not available in the places where the camera trap will be used (i.e. in the field) it is useful to program the raspberry pi to run the camera script as soon as it is powered to avoid the need to runt the script manually. This can be achieved by typing on the terminal:
+Since an hdmi screen is probably not available in the places where the camera trap will be used (i.e. in the field) it is useful to program the raspberry pi to run the camera script as soon as it is powered to avoid the need to run the script manually. This can be achieved by typing on the terminal:
 
 ```console
 sudo nano /etc/rc.local
 ```
 
-This will open a document on the console that where you can add in the line before “exit 0”
+This will open a document on the console that where it is possible to add the following in the line before “exit 0”:
 
 ```console
 python3 </PATH/TO/RFID_camera.py> &
 ```
+In the image example, the script is stored in a folder on the Descktop named “Photos”.
 
 <p align="center">
 <img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Automated_pictures_collection/Images/script_on_boot.png" width="600" height="300" />
 </p>
 
-In the image example the script is stored in a folder on the Descktop named “Photos”
  
-After pasting the text, press ctrl+o and after ctrl+x. Now every time that the raspberry py is turn on it will automatically start the script to take photos without the need for a screen, mouse and keyboard. Be sure to have the right “/dev/ttyUSBx” pasted on the script. Please note that USB number corresponding to the RFID logger might change after removing USB devices such as mouse and keyboard.
+After pasting the text, press ctrl+o and after ctrl+x. Now every time that the raspberry py is turn on it will automatically start the script to take photos without the need for a screen, mouse and keyboard. Again, it is important to make sure to have the right “/dev/ttyUSBx” pasted on the script. Please note that the USB number corresponding to the RFID logger might change after removing other USB devices, such as mouse or keyboard.
 
-If everything worked well you should have pictures that are labelled with the pit-tag code corresponding to the bird as well as the date and any other information that you might find relevant to add. Note that the “:” on the time stamp on the files names might raise issues especially if the files are transfer to a windows computer. You can rename the names by replacing the “:” with “-“. By typing the following code on the terminal:
+If everything worked well, the final output should have pictures that are labelled with the pit-tag code corresponding to the individual, as well as the date and any other information relevant to add. Note that the “:” on the time stamp on the files names might raise issues especially if the files are transfered to a windows computer. Files can be renamed by replacing the “:” with “-“ by typing the following code on the terminal:
 
 ```console
 cd </PATH/TO/PICTURES_FOLDER >
