@@ -12,7 +12,7 @@ We recommend installing python 3.x using [Anaconda](https://www.anaconda.com/dis
 ```console
 conda create -n individualID python=3.6
 ```
-2. A conda environment needs to be activated by typing:
+2. A conda environment needs to be activated by typing in the linux terminal:
 ```console
 source activate individualID
 ```
