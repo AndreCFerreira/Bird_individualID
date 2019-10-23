@@ -1,6 +1,6 @@
 # Weaver_individualID
 
-This repository provides the implementation of our paper ”Individual visual identification using deep learning in wild birds”. Here we provide a step-by-step on how to automatize collection of training pictures using RFID in birds, pre-process images and train convolutional neural networks for individual identification. The tutorials presented in this repository are meant for researchers with basic or no previous knowledge in python and general programing skills.
+This repository provides the necessary guidance for the implementation of our paper ”Individual visual identification using deep learning in wild birds”. Moroever, here we provide a step-by-step on how to automatize the collection of training pictures using RFID technology in birds, pre-process the obtained images and train convolutional neural networks for individual identification. The tutorials presented in this repository are meant for researchers with basic programing skills, more specificly python language.
 
 <p align="center">
 <img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Images/schematicsV2.png" width="600" height="300" />
