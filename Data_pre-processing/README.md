@@ -8,7 +8,7 @@ In our paper we used Mask R-CNN following [this tutorial]( https://www.learnopen
 
 ###  Apply noise and blur transformations
 
-We applied transformations to the images for training to artificially increase the sample size for training and improve the generalization capability of the models by applying blur and noise transformations as depicted in [this script]( https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Data_pre-processing/Blur_noise_transformation.ipynb).
+Transformations were applied to the images for training to artificially increase the sample size for training and improve the generalization capability of the models by applying blur and noise transformations as depicted in [this script]( https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Data_pre-processing/Blur_noise_transformation.ipynb).
 
 ### Moving files
 
