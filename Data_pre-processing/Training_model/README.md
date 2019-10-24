@@ -1,4 +1,4 @@
-## Training 
+## Training a model to extract a region of interest
 
 In order to train a model to select in an image the region occupied by a specific animal or body part of interest a dataset of images with the spatial information on the region of interest is needed. To achieve this, it is possible to manually annotate few hundred pictures with the delimited region of interest using an annotation software such as [VGG](http://www.robots.ox.ac.uk/~vgg/software/via/via-1.0.6.html) (Dutta, A., & Zisserman, A. (2019). The VGG image annotator (VIA). arXiv preprint arXiv:1904.10699).
 
