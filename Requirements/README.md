@@ -30,7 +30,7 @@ jupyter notebook
 
 Installing the modules needed to train a convolutional neural network ([tensorflow](https://www.tensorflow.org/) and [keras](https://keras.io/)), can be troublesome as it is required to properly install the graphic cards drives, [CUDA]( https://developer.nvidia.com/cuda-zone), [cuDNN](https://developer.nvidia.com/cudnn) and other dependencies. However there are many helpful guides that can greatly facilitate the process (some examples: [here]( https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html?source=post_page---------------------------), [here](https://medium.com/@vitali.usau/install-cuda-10-0-cudnn-7-3-and-build-tensorflow-gpu-from-source-on-ubuntu-18-04-3daf720b83fe) and [here]( https://www.pyimagesearch.com/2019/01/30/ubuntu-18-04-install-tensorflow-and-keras-for-deep-learning/)). Special caution should be taken to install a tensorflow version that is compatible with the machine's CUDA and cuDNN versions, to install the right CUDA version for the machine's graphic card and to install tensorflow on the created virtual environment.
 
-All other modules  are easier to install by typin on the linux terminal after activating the environment:
+All other modules  are easier to install by typing on the linux terminal after activating the environment:
 ```console
 pip install <name of the module>
 ```
