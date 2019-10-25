@@ -37,6 +37,6 @@ pip install <name of the module>
 
 ### Python
 
-Although all scripts used in this repository are of basic python code, if completely unfamiliarised with python a useful familiarization  with python basic knowledge, can be of great use ([syntax]( https://www.w3schools.com/python/python_syntax.asp), [for loops]( https://www.w3schools.com/python/python_for_loops.asp) and [functions]( https://www.w3schools.com/python/python_functions.asp)).
+Although all scripts used in this repository are of basic python code, if completely unfamiliarised with python a useful familiarization  with python basic knowledge, can be of great use (more specifically: [syntax]( https://www.w3schools.com/python/python_syntax.asp), [for loops]( https://www.w3schools.com/python/python_for_loops.asp) and [functions]( https://www.w3schools.com/python/python_functions.asp)).
 
 
