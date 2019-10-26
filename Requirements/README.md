@@ -8,7 +8,7 @@ We recommend installing python 3.x using [Anaconda](https://www.anaconda.com/dis
 
 # Create a virtual environment and jupyter notebook
 
-1. After installing python using conda, a conda environment should be created and named “individualID” by typing in a Linux terminal.
+1. After installing python using conda, a conda environment should be created and named, for example, “individualID” by typing in a Linux terminal.
 ```console
 conda create -n individualID python=3.6
 ```
