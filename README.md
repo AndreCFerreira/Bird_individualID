@@ -26,7 +26,7 @@ For more information please contact andremcferreira@cibio.up.pt
 2)	 [Automated_pictures_collection: raspberry pi communication with RFID data logger to build a camera trap with automatic labelling.](https://github.com/AndreCFerreira/Weaver_individualID/tree/master/Automated_pictures_collection)
 
 
-3)	[Data_pre-processing: localize and extract birds (or the body part of interest) from the pictures, pictures transformation and similarity index.](https://github.com/AndreCFerreira/Weaver_individualID/tree/master/Data_pre-processing)
+3)	[Data_pre-processing: localize and extract birds from pictures, pictures transformation and similarity index.](https://github.com/AndreCFerreira/Weaver_individualID/tree/master/Data_pre-processing)
 
 4)	[Train_CNN: training the convolutional neural network for individual identification](https://github.com/AndreCFerreira/Weaver_individualID/tree/master/Train_CNN)
 
