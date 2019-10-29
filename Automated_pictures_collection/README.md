@@ -8,7 +8,7 @@ In order to make an RFID based camera trap, communication between the raspberry 
 From reading the [technical datasheet](http://www.priority1design.com.au/rfidlog_rfid_data_logger.pdf) for the RIFD logger, it is possible to understand that this logger does not export the detected tag through the RS232 port by default (this might happen with other logger brands). Nonetheless it is possible to connect an [RS232 to USB adapter]( https://en.wikipedia.org/wiki/USB_adapter#/media/File:FTDI_USB_SERIAL.jpg) to the logger and, by using a terminal serial communication software (in our case we used [termite]( https://www.compuphase.com/software_termite.htm), we can configure the logger to export the detected tag (by following the instructions on the technical datasheet).
 
 ## 2. Establishing communication between the RFID logger and the raspberry pi
-In order to make an automatic labelling camera trap, connect the RS232 to USB adaptor to the logger and to the raspberry pi’s USB port.  This will alow that the information relative to the tags being detect at the RFID logger to pass to the raspberry pi which, in turn, will take a photo through the raspberry pi cam and label it by including in the photos file's name the unique number of the detected tag. 
+In order to make an automatic labelling camera trap, connect the RS232 to USB adaptor to the logger and to the raspberry pi’s USB port.  This will allow that the information relative to the tags being detect at the RFID logger to pass to the raspberry pi which, in turn, will take a photo through the raspberry pi cam and label it by including in the photos file's name the unique number of the detected tag. 
 
 <p align="center">
 <img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Automated_pictures_collection/Images/Setup_pi_camera.JPG" width="600" height="300" />
@@ -45,7 +45,7 @@ This will open a document on the console that where it is possible to add the fo
 ```console
 python3 </PATH/TO/RFID_camera.py> &
 ```
-In the image example, the script is stored in a folder on the Descktop named “Photos”.
+In the image example, the script is stored in a folder on the Desktop named “Photos”.
 
 <p align="center">
 <img src="https://github.com/AndreCFerreira/Weaver_individualID/blob/master/Automated_pictures_collection/Images/script_on_boot.png" width="600" height="300" />
@@ -54,7 +54,7 @@ In the image example, the script is stored in a folder on the Descktop named “
  
 After pasting the text, press ctrl+o and after ctrl+x. Now every time that the raspberry py is turn on it will automatically start the script to take photos without the need for a screen, mouse and keyboard. Again, it is important to make sure to have the right “/dev/ttyUSBx” pasted on the script. Please note that the USB number corresponding to the RFID logger might change after removing other USB devices, such as mouse or keyboard.
 
-If everything worked well, the final output should have pictures that are labelled with the pit-tag code corresponding to the individual, as well as the date and any other information relevant to add. Note that the “:” on the time stamp on the files names might raise issues especially if the files are transfered to a windows computer. Files can be renamed by replacing the “:” with “-“ by typing the following code on the terminal:
+If everything worked well, the final output should have pictures that are labelled with the pit-tag code corresponding to the individual, as well as the date and any other information relevant to add. Note that the “:” on the time stamp on the files names might raise issues especially if the files are transferred to a windows computer. Files can be renamed by replacing the “:” with “-“ by typing the following code on the terminal:
 
 ```console
 cd </PATH/TO/PICTURES_FOLDER >
