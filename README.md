@@ -18,7 +18,7 @@ This repository provides the necessary guidance for the implementation of our pa
 }
 ```
 
-If you would like to have more information please contact andremcferreira@cibio.up.pt
+For more information please contact andremcferreira@cibio.up.pt
 
 ## Table of Contents
 1)	  [Requirements: Python installation and requirements]( https://github.com/AndreCFerreira/Weaver_individualID/tree/master/Requirements)
