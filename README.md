@@ -11,8 +11,8 @@ This repository provides the necessary guidance for the implementation of our pa
 
 ```
 @article{deeplearningbirds,
-  title={ Individual visual identification using deep learning in wild birds },
-  author={André C. Ferreira, Liliana R. Silva, Francesco Renna, Hanja B. Brandl, Julien Renoult, Damien R. Farine, Rita Covas and Claire Doutrelant },
+  title={Individual visual recognition using deep learning in small birds},
+  author={André C. Ferreira, Liliana R. Silva, Francesco Renna, Hanja B. Brandl, Julien P. Renoult, Damien R. Farine, Rita Covas and Claire Doutrelant},
   journal={ },
   year={2019}
 }
