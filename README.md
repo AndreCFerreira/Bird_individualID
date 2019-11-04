@@ -1,6 +1,6 @@
 # Bird_individualID
 
-This repository provides the necessary guidance for the implementation of our paper ”Individual visual identification using deep learning in wild birds”, including a step-by-step on how to automatize the collection of training pictures using RFID technology in birds, pre-process the obtained images and train convolutional neural networks for individual identification. The tutorials presented in this repository are meant for researchers with very basic programing skills (preferentially python language).
+This repository provides the necessary guidance for the implementation of our paper ”Individual visual recognition using deep learning in wild birds”, including a step-by-step on how to automatize the collection of training pictures using RFID technology in birds, pre-process the obtained images and train convolutional neural networks for individual identification. The tutorials presented in this repository are meant for researchers with very basic programing skills (preferentially python language).
 
 <p align="center">
 <img src="https://github.com/AndreCFerreira/Bird_individualID/blob/master/Images/procedureV3.png" width="600" height="300" />
