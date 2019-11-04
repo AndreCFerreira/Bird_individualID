@@ -11,9 +11,7 @@ To start labelling the regions of interest select "Regions Attributes" and add a
 
 After selecting the region of interest in all pictures, go to "Annotation"-"Save JSON" to download the file which contains the information about the regions of interest. Keep this file in the same folder as the training pictures. Repeat the process for another smaller dataset which will be used as validation dataset.
 
-To train the model use the scripts provided in [this repository](https://github.com/matterport/Mask_RCNN).
-
-To download and extract the repository, use the example in the folder "/PATH/TO/Mask_RCNN-master/samples/balloon" to train a model on manually annotated dataset. Open the terminal on this folder and type the following code:
+To train the model use the scripts provided in [this repository](https://github.com/matterport/Mask_RCNN). After downloading and extracting the repository, use the example in the folder "/PATH/TO/Mask_RCNN-master/samples/balloon" to train a model on the manually annotated dataset. Open the terminal on this folder and type the following code:
 
 ```console
 python3 balloon.py train --dataset=/path/to /dataset --weights=coco
