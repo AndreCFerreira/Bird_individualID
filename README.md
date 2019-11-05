@@ -7,7 +7,7 @@ This repository provides the necessary guidance for the implementation of our pa
 </p>
 
 
-## Citations and Contact
+## Citation and Contact
 
 ```
 @article{deeplearningbirds,
