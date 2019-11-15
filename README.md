@@ -1,4 +1,4 @@
-# Bird_individualID
+# Deep learning-based methods for individual recognition in small birds
 
 This repository provides the necessary guidance for the implementation of our paper ”Individual visual recognition using deep learning in small birds”, including a step-by-step on how to automatize the collection of training pictures using RFID technology, pre-process the obtained images and train convolutional neural networks for individual identification. The tutorials presented in this repository are meant for researchers with very basic programing skills (preferentially python language).
 
@@ -11,7 +11,7 @@ This repository provides the necessary guidance for the implementation of our pa
 
 ```
 @article{deeplearningbirds,
-  title={Individual visual recognition using deep learning in small birds},
+  title={Deep learning-based methods for individual recognition in small birds},
   author={André C. Ferreira, Liliana R. Silva, Francesco Renna, Hanja B. Brandl, Julien P. Renoult, Damien R. Farine, Rita Covas and Claire Doutrelant},
   journal={ },
   year={2019}
