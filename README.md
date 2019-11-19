@@ -21,7 +21,7 @@ This repository provides the necessary guidance for the implementation of our pa
 For more information please contact andremcferreira@cibio.up.pt
 
 ## Table of Contents
-1)	  [Requirements: Python installation and requirements]( https://github.com/AndreCFerreira/Weaver_individualID/tree/master/Requirements)
+1)	  [Requirements]( https://github.com/AndreCFerreira/Weaver_individualID/tree/master/Requirements)
 
 2)	 [Automated_pictures_collection: raspberry pi communication with RFID data logger to build a camera trap with automatic labelling.](https://github.com/AndreCFerreira/Weaver_individualID/tree/master/Automated_pictures_collection)
 
