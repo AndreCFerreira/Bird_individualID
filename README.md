@@ -19,7 +19,7 @@ This repository provides the necessary guidance for the implementation of our pa
 }
 ```
 
-For more information please contact andremcferreira@cibio.up.pt
+For more information please contact andremcferreira@cibio.up.pt or andrem343@hotmail.com
 
 ## Table of Contents
 1)	  [Requirements]( https://github.com/AndreCFerreira/Weaver_individualID/tree/master/Requirements)
@@ -31,3 +31,4 @@ For more information please contact andremcferreira@cibio.up.pt
 
 4)	[Train_CNN: training the convolutional neural network for individual identification](https://github.com/AndreCFerreira/Weaver_individualID/tree/master/Train_CNN)
 
+5) [Dataset](https://github.com/AndreCFerreira/Bird_individualID/tree/master/Dataset)
