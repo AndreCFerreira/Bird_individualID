@@ -14,8 +14,8 @@ This repository provides the necessary guidance for the implementation of our pa
 @article{deeplearningbirds,
   title={Deep learning-based methods for individual recognition in small birds},
   author={André C. Ferreira, Liliana R. Silva, Francesco Renna, Hanja B. Brandl, Julien P. Renoult, Damien R. Farine, Rita Covas and Claire Doutrelant},
-  journal={ },
-  year={2019}
+  journal={Methods in Ecology and Evolution},
+  year={2020}
 }
 ```
 
